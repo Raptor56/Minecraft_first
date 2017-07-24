@@ -53,7 +53,7 @@ for i in range(img_x):
         min_l = -1
         min_pixel_l = 10000
 
-        for k in range(16):
+        for k in range(len(woolColors)):
 
             pixel_l = math.sqrt((img_b - woolColors[k][0])**2 + (img_g - woolColors[k][1])**2 + (img_r - woolColors[k][2])**2)
 
